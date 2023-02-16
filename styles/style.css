@@ -1,47 +1,75 @@
 /* - - - -  - Font - - - - - */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
 
 /* - - -  - common styles - - - -  */
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
 
-/* header styles */
-header{
-    width: 100%;
-    height: 100vh;
-    background: rgba(255, 144, 14, 0.1);
-    padding-top: 50px;
-    
+/* - - - - - header styles - - - - - -  */
+header {
+  width: 1920px;
+  height: 1300px;
+  background: rgba(255, 144, 14, 0.1);
+  padding-top: 50px;
 }
-.header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-title{
-    margin-left: 240px;
-    color: #131313;
-    font-size: 45px;
-    
+.header-title {
+  margin-left: 240px;
+  color: #131313;
+  font-size: 45px;
 }
-.menu-container{
-    margin-right: 240px;
-    color: #424242;
-    font-size: 18px;
-    font-weight: 500px;
+.menu-container {
+  margin-right: 240px;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500px;
 }
-.items{
-    display: flex;
-    list-style: none;
+.items {
+  display: flex;
+  list-style: none;
+}
+.item {
+  padding: 30px;
+}
+/* - - - -  - - - banner styles - - - - - - - -  */
+header .banner-container {
+  text-align: center;
+}
 
+.banner-details {
+  padding-top: 100px;
+  width: 862px;
+  padding-left: 530px;
+  text-align: center;
 }
-.item{
-    padding: 30px;
+.banner-title {
+  font-size: 64px;
+  color: #131313;
 }
-/* banner styles */
-
-
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #727272;
+}
+.btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600px;
+  border: none;
+  color: white;
+}
+.banner {
+  padding-top: 50px;
+}
