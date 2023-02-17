@@ -262,6 +262,17 @@ header .banner-container {
   font-size: 20px;
   color: #424242;
 }
+/* Projects Styles */
+.project-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-left: 240px;
+}
+
+ 
+  
 
 
 /* -  - - - - - Media Query styles- - -  - - - */
