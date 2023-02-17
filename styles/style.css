@@ -110,8 +110,8 @@ header .banner-container {
 .second-section-container {
   padding-left: 240px;
   padding-right: 240px;
-  /* background: gray; */
 }
+  
 .feature-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -132,7 +132,7 @@ header .banner-container {
   height: 100px;
   background-color: white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  padding: 25px;
+  padding: 30px 40px 50px 30px;
   margin-bottom: 30px;
   border-radius: 8px;
 }
